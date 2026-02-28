@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>Nature</title>
+<script>
+var a=new Array(4);
+a[0]=new Image();
+a[0].src="pic/h5.jpg";
+
+a[1]=new Image();
+a[1].src="pic/h6.jpg";
+
+a[2]=new Image();
+a[2].src="pic/r3.jpg";
+
+a[3]=new Image();
+a[3].src="pic/r5.jpg";
+
+var i=0;
+function demo()
+{
+	document.getElementById("m1").src=a[i].src;
+	i++;
+	if(i==4)
+		i=0;
+	
+	setTimeout("demo()",2000);
+}
+</script>
+<style>
+.aa
+{
+	text-decoration:none;
+	color:white;
+
+}
+.aa:hover{
+color:black;
+}
+.bb
+{
+   width:200px;
+   text-align:center;
+   background-color:pink;
+   color:black;
+   
+   
+}
+.bb:hover
+{
+	background-color:skyblue;
+	color:black;
+}
+.ss{
+	padding:25px 25px 25px 25px;
+	font-size:30px;
+	line-height:50px;
+	color:black;
+	//width:400px;
+	height:400px;
+}
+.pp{
+	color:white;
+}
+
+</style>
+</head>
+<body onLoad="demo();" >
+<table align="center" border="0" width="100%" cellspacing="0" cellpadding="0" style="background-image:url(pic/m.jpg);background-size:100% 100%;">
+<tr height="150">
+<td colspan="5">
+<table align="center" >
+
+<tr>
+
+<td align="center">
+&nbsp;&nbsp;&nbsp;
+<font color="Purple" size="72"><h3>Getting Crowned By Nature</h3>
+</font>
+
+</td>
+</tr>
+</table>
+</td></tr>
+
+<tr height="30">
+<td class="bb">
+<a href="Home.php" class="aa">Home</a>
+</td>
+
+<td class="bb">
+<a href="Chemicals.php" class="aa">Chemicals</a>
+</td>
+
+<td class="bb">
+<a href="shop.php" class="aa">Shops</a>
+</td>
+
+<td class="bb">
+<a href="adminlogin.php" class="aa">Admin</a>
+</td>
+
+<td class="bb">
+<a href="Userlogin.php"class="aa">User</a>
+</td>
+
+</tr>
+
+
+
+<tr>
+<td colspan="5" align="center">
+<h1 style="color:purple"><br>Welcome Back To Nature</h1>
+<p class="ss"> The Main Objective Of This Project Is To Pull People From The World Of Chemical. As The Project Title Acts As A Hint, It Is To Push Them Back To The Good Old Days Where Nature And We Have Been Crowning Each Other. My Motive Is To Make People Let Know The List Of Few Hazardous Chemicals That We Are Feeding To Our Skin Without Even Knowing The Adverse Reactions Of It. I Am Sure That The Outcome Of This Project Will Be Realizing Our Mistake Of Leaving The Mother Nature Since I Will Be Sowing My Concern So Strongly With Utmost Care. And This Project Will Make Us To Enter The World Of Nature Once Again So That The Mother Nature Can Take Care Of Us, As Like Before. The Formation Of A Solution Is The Project, Which Is Going To Be Taken Birth As A Website.
+</p>
+<tr><td height="30" colspan="5" style="background-color:skyblue;color:white;">
+
+<marquee><p class="pp">Copyright @ 2019 Getting Crowned By Nature</p>
+
+</marquee>
+</body>
+</html>
